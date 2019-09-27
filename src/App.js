@@ -25,8 +25,11 @@ class App extends Component {
     }
   }
 
-  addDecimal = val => {
-    if(this.state.input.indexOf(".") === -1) {
+  addDecimal = (val) => {
+    if(this.state.input === "") {
+      this.setState({ input: this.state.input + "0." })
+    }
+    else if( this.state.input.toString().indexOf(".") === -1) {
       this.setState({ input: this.state.input + val })
     }
   }
@@ -138,7 +141,7 @@ class App extends Component {
             <Button handleClick={this.division}>/</Button>
           </div>
           <div className="row">
-            <Button handleClick={this.addToInput}> 7</Button>
+            <Button handleClick={this.addToInput}>7</Button>
             <Button handleClick={this.addToInput}>8</Button>
             <Button handleClick={this.addToInput}>9</Button>
             <Button handleClick={this.multiply}>*</Button>
