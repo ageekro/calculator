@@ -1,0 +1,25 @@
+.button-wrapper {
+    height: 4em;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #888888;
+    outline: 1px solid #888888;
+    cursor: pointer;
+}
+
+.button-wrapper:hover {
+    background-color: rgb(230, 236, 240);
+}
+
+.operator {
+    color: #ffffff;
+    background-color: #fe9241;
+}
+
+.operator:hover {
+    background-color: coral;
+}
