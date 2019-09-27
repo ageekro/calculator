@@ -3,10 +3,12 @@
 Created with create-react-app.
 
 **Install:**
-``` npm init
+``` 
+npm init
 ```
 
 **Usage:**
-``` npm start
+``` 
+npm start
 ```
 
