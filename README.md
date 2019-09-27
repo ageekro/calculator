@@ -2,10 +2,11 @@
 
 Created with create-react-app.
 
-**extracted data:**
+**Install:**
+``` npm init
 ```
-  -name of computer
-  -number of like
-  -price
-  -image links
+
+**Usage:**
+``` npm start
 ```
+
